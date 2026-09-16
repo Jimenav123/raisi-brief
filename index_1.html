@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Raisi Content Brief</title>
+<meta name="description" content="6 months to the point where a founder hears the name Raisi and already knows what it is.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Raisi Content Brief">
+<meta property="og:description" content="6 months to the point where a founder hears the name Raisi and already knows what it is.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:,">
+<style>
+
+  :root{
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+    color-scheme:light;
+    --base-size:17px;
+    --align:justify;
+    --paper:#FFFFFF;
+    --ink:#111111;
+    --ink-soft:#333333;
+    --ink-faint:#666666;
+    --rule:#CFCFCF;
+    --rule-strong:#111111;
+    --tint:#F4F4F2;
+    --serif:"Times New Roman", Times, Georgia, serif;
+  }
+
+  *{box-sizing:border-box;}
+  html,body{margin:0;}
+  img{max-width:100%;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--serif);
+    font-size:var(--base-size);
+    line-height:1.55;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding-inline:24px;padding-block:56px 72px;}
+
+  /* masthead */
+  .masthead{text-align:center;padding-bottom:22px;border-bottom:3px double var(--rule-strong);}
+  .tag{font-variant:small-caps;font-size:.82em;letter-spacing:.14em;color:var(--ink-faint);margin-bottom:14px;}
+  h1{font-family:var(--serif);font-size:clamp(32px,6.4vw,46px);font-weight:700;line-height:1.1;margin:0 0 12px;letter-spacing:-.01em;text-wrap:balance;}
+  .sub{font-style:italic;color:var(--ink-soft);margin:0 auto 14px;max-width:46ch;font-size:1.02em;text-align:center;}
+  .byline{font-size:.86em;color:var(--ink-faint);font-variant:small-caps;letter-spacing:.1em;}
+
+  /* sections */
+  section{padding-block:34px;border-bottom:1px solid var(--rule);}
+  section:last-of-type{border-bottom:none;}
+  .eyebrow{font-variant:small-caps;font-size:.84em;letter-spacing:.14em;color:var(--ink-faint);margin-bottom:6px;}
+  .eyebrow b{font-weight:700;color:var(--ink);}
+  h2{font-family:var(--serif);font-size:clamp(22px,4vw,28px);font-weight:700;line-height:1.2;margin:0 0 14px;text-wrap:balance;}
+  h3{font-family:var(--serif);font-size:1.06em;font-weight:700;margin:0 0 5px;}
+  h4{font-variant:small-caps;font-size:.84em;letter-spacing:.12em;font-weight:700;color:var(--ink-faint);margin:0 0 7px;}
+  p{margin:0 0 13px;text-align:var(--align);hyphens:auto;-webkit-hyphens:auto;}
+  .lede{font-size:1.12em;line-height:1.5;}
+
+  .flag{border-left:2px solid var(--rule-strong);padding:2px 0 2px 16px;margin-block:18px;font-size:.97em;color:var(--ink-soft);}
+  .flag strong{color:var(--ink);font-weight:700;}
+  .pull{text-align:center;font-style:italic;font-size:1.12em;line-height:1.45;padding-block:16px;margin-block:20px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);max-width:44ch;margin-inline:auto;}
+
+  /* audit */
+  .audit{margin-block:20px;border-top:2px solid var(--rule-strong);border-bottom:2px solid var(--rule-strong);}
+  .audit .row{padding:11px 0;border-bottom:1px solid var(--rule);display:flex;gap:16px;align-items:baseline;flex-wrap:wrap;}
+  .audit .row:last-child{border-bottom:none;}
+  .audit .k{font-variant:small-caps;font-size:.86em;letter-spacing:.09em;font-weight:700;min-width:130px;}
+  .audit .v{flex:1;min-width:210px;color:var(--ink-soft);font-size:.97em;}
+
+  /* pillars */
+  .pillars{margin-top:6px;}
+  .pillar{padding-block:22px;border-top:1px solid var(--rule);}
+  .pillar:first-child{border-top:2px solid var(--rule-strong);}
+  .pillar-head{margin-bottom:7px;}
+  .pnum{font-variant:small-caps;font-weight:700;letter-spacing:.09em;font-size:.9em;margin-right:8px;}
+  .pillar-head h3{display:inline;}
+  .meta{font-variant:small-caps;font-size:.85em;letter-spacing:.09em;color:var(--ink-faint);margin-top:9px;}
+  .meta span:not(:last-child)::after{content:" · ";}
+
+  .sample{border-left:2px solid var(--rule);padding:12px 0 12px 16px;margin-top:14px;}
+  .sample .lines{font-size:.95em;line-height:1.75;}
+  .sample .lines div:first-child{font-weight:700;}
+  .sample .lines div:last-child{font-style:italic;color:var(--ink-faint);}
+
+  /* table */
+  .scroller{overflow-x:auto;margin-block:20px;}
+  table{border-collapse:collapse;width:100%;min-width:440px;font-size:.95em;}
+  th,td{text-align:left;padding:9px 12px 9px 0;border-bottom:1px solid var(--rule);vertical-align:top;}
+  th{font-variant:small-caps;font-size:.92em;letter-spacing:.09em;font-weight:700;border-top:2px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);}
+  tfoot td{font-weight:700;border-top:1px solid var(--rule-strong);border-bottom:2px solid var(--rule-strong);}
+
+  /* months */
+  .months{margin-top:6px;}
+  .month{padding-block:20px;border-top:1px solid var(--rule);}
+  .month:first-child{border-top:2px solid var(--rule-strong);}
+  .mno{font-variant:small-caps;letter-spacing:.1em;font-size:.9em;color:var(--ink-faint);margin-bottom:5px;}
+  .mno b{font-weight:700;color:var(--ink);margin-right:8px;}
+  .month ul{margin:9px 0 0;padding-left:20px;}
+  .month li{margin-bottom:5px;font-size:.97em;}
+
+  ul.plain{margin:0 0 13px;padding-left:20px;}
+  ul.plain li{margin-bottom:7px;}
+  ol.steps{margin:0;padding-left:22px;}
+  ol.steps li{margin-bottom:11px;}
+  li strong{font-weight:700;}
+
+  .ask{border:1px solid var(--rule-strong);padding:20px 22px;margin-top:20px;}
+  .ask ul{margin:0;padding-left:19px;}
+  .ask li{margin-bottom:7px;font-size:.97em;}
+
+  .signoff{max-width:680px;margin:0 auto;padding-inline:24px;}
+  .signoff .inner{margin-top:38px;padding-top:20px;border-top:3px double var(--rule-strong);font-size:.95em;color:var(--ink-soft);}
+  .signoff strong{color:var(--ink);font-weight:700;}
+
+  
+  @media (max-width:520px){
+    .wrap{padding-block:40px 60px;}
+    p{text-align:left;}
+  }
+  @media print{
+    .wrap{padding-block:0;max-width:none;}
+    section{break-inside:avoid;}
+  }
+
+</style>
+</head>
+<body>
+<div class="wrap"><header class="masthead"><div class="tag">MARKETING BRIEF</div><h1>Raisi Content Brief</h1><p class="sub">6 months to the point where a founder hears the name Raisi and already knows what it is.</p><div class="byline">Jimena Vázquez · September 2026</div></header><section><div class="eyebrow"><b>01</b> THE GOAL</div><h2>Familiarity not followers</h2><p>Goal: A founder mid raise has seen Raisi 4x before they ever click.</p><p class="lede">What matters is founders knowing Raisi is a tech company. A product with data behind it.</p><p>That is a recognition problem, and recognition is won two ways: prove it with data, and stay consistent.</p><p>So instead of boring claims like &quot;we help founders raise faster,&quot; we post &quot;across 50,000 investor responses, seed stage reply rates were 12% in September and AI infra was the only sector above 15%.&quot; That shows data and credibility, and it&#x27;s the type of post people save. We post outputs instead of claims. That gives Raisi the competitive advantage, because you guys know the data.</p><p>Everything in this brief is built around those two things, and sized to stay sustainable for six months.</p></section><section><div class="eyebrow"><b>02</b> WHERE YOU ARE NOW</div><h2>The honest audit</h2><div class="audit"><div class="row"><span class="k">LIVE ON</span><span class="v">X, Instagram, LinkedIn</span></div><div class="row"><span class="k">POSTING</span><span class="v">Mostly product announcements. Feature launches, positioning statements, company news.</span></div><div class="row"><span class="k">UNUSED</span><span class="v">Case studies sit on the site as pages. None of them have been turned into content.</span></div><div class="row"><span class="k">BIGGEST ASSET</span><span class="v">150K+ investor records, 50K+ investor responses, $500M+ in active campaigns. Almost none of it is visible publicly.</span></div></div><p>Product announcements are not a content strategy. They tell people what you shipped, which only matters to someone who already follows you. They do nothing for the founder who has never heard the name.</p><p>For the specific goal you described, announcements actually work against you. &quot;We launched a feature&quot; is what an agency says too. What proves you are a tech company is showing the data only a tech company could have.</p><div class="flag"><p><strong>Competitive Advantage</strong> Raisi has dataset about investor behavior that nobody has ever published. No competitor can copy content built on it.</p></div></section><section><div class="eyebrow"><b>03</b> POSITIONING</div><h2>Show the data NOT the software</h2><p>Every post should leave a founder thinking how do they know that. That question is what makes someone file you as a tech company instead of a service.</p><p>3 rules for social media:</p><ul class="plain"><li><strong>Give away the insight, keep the product in the background.</strong> Nobody trusts a company that only talks about itself. Teach first and let the product be the obvious explanation for how you know.</li><li><strong>NEVER post something a competitor could have written.</strong> If a generic fundraising newsletter could publish it, it does not belong on this account.</li><li><strong>Founder led, matching the site.</strong> Your own positioning is that outreach comes from the founder!! NOT an outsourcer. The content should follow the same logic. People trust people faster than they trust logos!!!</li></ul><h3>Audience: founders first</h3><p>You sell to founders , PE firms and advisors. Those need different voices and a company at this stage should not run two content engines.</p><p>Founders come 1st. Banks and PE firms only take Raisi seriously once founders are already talking about it. No banker brings a tool to their firm that no founder has heard of. So we win founders first and the bank and PE crowd gets the same material on LinkedIn just written a little more seriously.</p></section><section><div class="eyebrow"><b>04</b> CONTENT PILLARS</div><h2>5 Pillars</h2><div class="pillars"><div class="pillar"><div class="pillar-head"><span class="pnum">P1</span><h3>The Raisi Index</h3></div><p>A recurring benchmark drop built from your data. What investor reply rates actually look like this month, by stage and by sector. Which sectors are heating up and which day of the week performs. Nobody else can copy this!!</p><p>This is the main one. It proves Raisi is a tech company better than anything else we could post because you can&#x27;t publish a number like that unlike Raisi.</p><div class="sample"><h4>EX:</h4><div class="lines"><div>September investor reply rates</div><div>Pre-seed 9% · Seed 12% · Series A 6%</div><div>Hottest sector: AI infrastructure, 17%</div><div>Coldest: consumer social, 3%</div><div>Best send day: Tuesday. Worst: Friday.</div><div>Based on 50,000+ investor responses across Raisi campaigns.</div></div></div></div><div class="pillar"><div class="pillar-head"><span class="pnum">P2</span><h3>Outreach teardowns</h3></div><p>A real investor outreach email (anonymized obvi). What is wrong with it, the rewrite, and what happened. It is a demonstration of the product that never feels like an ad because the viewer is being taught something valuable.</p><p>Very repeatable and highly saved and shared. Founders send this to their cofounders because anyone mid raise wants to know what&#x27;s actually working right now.</p></div><div class="pillar"><div class="pillar-head"><span class="pnum">P3</span><h3>Robert on screen</h3></div><p>What you are seeing across hundreds of campaigns, the unpopular opinion about how founders raise, and what a failed raise actually looks like from the data side.</p><p>This also covers the bank and PE crowd without us building them their own channel. A founder posting real market data already reads as credible to that kind of buyer.</p></div><div class="pillar"><div class="pillar-head"><span class="pnum">P4</span><h3>The POV of raising</h3></div><p>Short video about what fundraising actually feels like, not the tactics. The silence after you send 80 emails. The investor who says &quot;keep me posted.&quot; Figuring out when to stop.</p><p>Everyone else posts spreadsheets. Nobody talks about how it ACTUALLY feels and raising is one of the most stressful things a founder goes through. This is the lane will prob get us reach past the people already following you.</p></div><div class="pillar"><div class="pillar-head"><span class="pnum">P5</span><h3>Proof</h3></div><p>Your case studies as short form content. 217 interested investors and Tier 1 VC meetings is a hook. Thirty seconds, the founder on camera, the number on screen.</p><p>Around 1 in every 8 posts, so the account never tips into advertising.</p></div></div></section><section><div class="eyebrow"><b>05</b> CADENCE</div><h2>What actually ships each week</h2><p>Built so it survives a bad week. 5 og ideas a week, reshaped for each platform ALWAYS 2 weeks ahead. So if a week goes sideways the account never goes quiet.</p><div class="scroller"><table><thead><tr><th>CHANNEL</th><th>PER WEEK</th><th>CARRIES</th></tr></thead><tbody><tr><td>X</td><td>4</td><td>Index, teardowns, Robert, short takes</td></tr><tr><td>LinkedIn, company (and maybe personal)</td><td>3</td><td>Index, teardowns, proof</td></tr><tr><td>Instagram</td><td>2</td><td>Video, repurposed</td></tr><tr><td>TikTok (maybe) from month 3</td><td>2</td><td>Same video as Instagram</td></tr></tbody><tfoot><tr><td>Total posts</td><td>11</td><td>From 5 og ideas</td></tr></tfoot></table></div></section></div>
+</body>
+</html>
